@@ -1,6 +1,7 @@
 <!--Added head and some meta including title; all major divs: header, above the fold center, below the fold center, service & pricing, testimonials 7 footer-->
 <!-- 6/14/2019: For divs, header,  above_the_fold and below_the_fold added in all tags and elements -->
 
+<!-- 6/16/2019: added more meta tags; wrapped header & footer divs in sematic header and footer; and added necessary divs; need to make semantic  -->
 
 <!DOCTYPE html>
 <html lang="en"> <!-- what other common code goes here-->
@@ -9,10 +10,11 @@
         <meta charset = "utf-8" /> <!-- what other common code goes here? eg. content = "text/html"-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <title>Sumy Wrestle Code</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name = "decription" content = "Website coded by Sumy Wrestle Code"/>
+        <meta name ="keywords" content = "front-end html css" />
         
         <!-- <link rel="stylesheet" type="text/css" media="screen" href="\mybusinesswebsite_htmlcssonly.css" /> -->
-        <!-- <script src="\mybusinesswebsite_htmlcssonly.js"></script /> -->
         <!-- <link href='https://fonts.googleapis.com/css?family=Brawler' rel='stylesheet'> -->
         
         <style>
@@ -29,138 +31,329 @@
         </style>
     </head>
     <body>
-    <div id = "container">
-        <header id = "header" class = "header">
-            <div id = "div_header" class = "header">
-                <div id = "logo_bizName">
-                    <div id = "logo" id ="header_logo">
-                    <p> Logo </p>
-                    </div> <!-- close of id = logo & header_logo div-->
-                    <p> Sumy Wrestle Code </p>
-                    <div id = "bizName" id ="header_bizName">
-                    </div> <!-- close of id = bizName header_bizName div-->
-                </div> <!-- close of id = logo_bizName div-->
-                <div id = "nav">
-                    <div id = "header_nav" id = "nav_bar">
-                        <ul id = "nav_list">
-                            <li class = "nav_bar" id = "nav_home">Home
-                            </li>
-                            <li class = "nav_bar" id = "nav_about">About
-                            </li>
-                            <li class = "nav_bar" id = "nav_services">Services
-                            </li>
-                            <li class = "nav_bar" id = "nav_contact">Contact Me
-                            </li>
-                            <li class = "nav_bar" id = "nav_blog">Blog
-                            </li>
-                        </ul>  <!--close of id = nav_list -->
-                    </div> <!-- close of id = header_nav & nav_bar div-->
-                </div> <!-- close of id = nav div-->
-                <div id = "right_side">
-                <!-- Leave empty?? -->
-                </div> <!-- close of id = right_side div-->
-            </div>  <!-- close of id = div_header div -->
-        </header> 
-        
-        
-        
-        <div id = "cta_hero_bio" id = " above_the_fold" class = "space_on_left">
-            <div id = "cta_hero" class = "main_blocks_space_on_left">
-                <div id = "hero_blurb" class = "hero">
-                    <h5 id = "hero_probSolve" class = "body_headers"> Problems I Can Help You Solve
-                    </h5> 
-                    <p>
-                    </p>
-                    <button id = "hero_services_button" class = "button_to_servicePage">Services
-                    </button>  <!-- button close for id = hero_services_button & class = button_to_servicePage -->
-                </div> <!-- close of id = hero_blurb & class = hero div-->
-                <div id = "newsletter_optin">
+        <div id = "container">
+                <header id = "header" class = "header">
+                    <div id = "div_header" class = "header">
+                        <div id = "logo_bizName">
+                            <div id = "logo" id ="header_logo">
+                            <p> Logo </p>
+                            </div> <!-- close of id = logo & header_logo div-->
+                            <p> Sumy Wrestle Code </p>
+                            <div id = "bizName" id ="header_bizName">
+                            </div> <!-- close of id = bizName header_bizName div-->
+                        </div> <!-- close of id = logo_bizName div-->
+                        <div id = "nav">
+                            <div id = "header_nav" id = "nav_bar">
+                                <ul id = "nav_list">
+                                    <li class = "nav_bar" id = "nav_home">Home
+                                    </li>
+                                    <li class = "nav_bar" id = "nav_about">About
+                                    </li>
+                                    <li class = "nav_bar" id = "nav_services">Services
+                                    </li>
+                                    <li class = "nav_bar" id = "nav_contact">Contact Me
+                                    </li>
+                                    <li class = "nav_bar" id = "nav_blog">Blog
+                                    </li>
+                                </ul>  <!--close of id = nav_list -->
+                            </div> <!-- close of id = header_nav & nav_bar div-->
+                        </div> <!-- close of id = nav div-->
+                        <div id = "right_side">
+                        <!-- Leave empty?? -->
+                        </div> <!-- close of id = right_side div-->
+                    </div>  <!-- close of id = div_header div -->
+                </header> 
                 
-                    <form id = "list_email">   <!-- need to chack this -->
-                        <p>Want to know how you can make a video call online?
-                        <fieldset name = "email">  <!-- need to chack this -->
-                        </fieldset>
+                
+                
+                <div id = "cta_hero_bio" id = " above_the_fold" class = "space_on_left">
+                    <div id = "cta_hero" class = "main_blocks_space_on_left">
+                        <div id = "hero_blurb" class = "hero">
+                            <h5 id = "hero_probSolve" class = "body_headers"> Problems I Can Help You Solve
+                            </h5> 
+                            <p>
+                            </p>
+                            <button id = "hero_services_button" class = "button_to_servicePage">Services
+                            </button>  <!-- button close for id = hero_services_button & class = button_to_servicePage -->
+                        </div> <!-- close of id = hero_blurb & class = hero div-->
+                        <div id = "newsletter_optin">
+                        
+                            <form id = "list_email">   <!-- need to chack this -->
+                                <p>Want to know how you can make a video call online? Just enter your email below:
+                                </p>
+                                <fieldset name = "email">  <!-- need to check this -->
+                                </fieldset>
+                            
+                            </form>
+                        </div> <!-- close of id = newsletter_optin div-->
+                        <div id = "hero_socialProof">  <!-- is there better way to do this? -->
+                            <ul id = "socialProof_list">
+                                <li id = "heroProof_company1"> Company 1
+                                </li>
+                                <li id = "heroProof_company2"> Company 2
+                                </li>
+                                <li id = "heroProof_company3"> Company 3
+                                </li>
+                                <li id = "heroProof_company4"> Company 4
+                                </li>
+                            </ul>
+                        </div>  <!-- close of id = hero_socialProof -->
+                    
+                    </div> <!-- close of id = cta_hero & class = main_blocks_space_on_left div-->
+                    
+                    <div id = "offer_whyWork" id = "below_the_fold" class = "main_blocks_space_on_left">
+                    
+                        <h5>What I Offer + Why Work With Me
+                        </h5>
+                        
+                        <div id = "myImage_above_fold" class = "myImage">  <!-- is this div necessary?? -->
+                            <img src = "pic" alt = "Image of Sumy of Sumy Wrestle Code">
+                        </div>  <!-- close of id = myImage_above_fold & class = myImage -->            
+
+                        <p> Background, experience & skills and how they will solve client's problem
                         </p>
-                    </form>
-                </div> <!-- close of id = newsletter_optin div-->
-                <div id = "hero_socialProof">  <!-- is there better way to do this? -->
-                    <ul id = "socialProof_list">
-                        <li id = "heroProof_company1"> Company 1
-                        </li>
-                        <li id = "heroProof_company2"> Company 2
-                        </li>
-                        <li id = "heroProof_company3"> Company 3
-                        </li>
-                        <li id = "heroProof_company4"> Company 4
-                        </li>
-                    </ul>
-                </div>  <!-- close of id = hero_socialProof -->
-            
-            </div> <!-- close of id = cta_hero & class = main_blocks_space_on_left div-->
-            
-            <div id = "offer_whyWork" id = "below_the_fold" class = "main_blocks_space_on_left">
-            
-                <h5>What I Offer + Why Work With Me
-                </h5>
+                        <div id = "work_with_me_buttons">
+                            <button id = "work_with_me_services" class = "button_to_servicePage">See my services
+                            </button>
+                            <button id = "work_with_me_portfolio" class = "button_to_servicePage">Go to my services
+                            </button>
+                            <button id = "work_with_me_bookCall" class = "button_to_contactPage">Book a Call with Me
+                            </button>
+                        </div>  <!-- close of id = work_with_me_buttons & class = button_to_servicePage -->            
+                    </div> <!-- close of id = offer_whyWork & class = main_blocks_space_on_left div-->
+                    
+                    <div id = "myimage_bio_social" class = "main_blocks_space_on_left">
+                        <div id = "myImage_sidebar">
+                            <img src = "pic" alt = "Headshot of Sumy of Sumy Wrestle Code">
+                        </div>  <!-- close of id = myImage_sidebar -->            
+                        <div id = "sidebar_bio_buttons">
+                            <div id = "sidebar_bio">
+                            <p> <span>A Little About Me</span>
+                            </p>
+                            <p> Hello World! I'm Sumy, programmer at Sumy Wrestle Code .......
+                            </p>
+                            <ul id = "sidebar_smLinks">
+                                <li id = "facebook" id = "facebook_sidebar" class = "socialMedia_linkTo" class = "sidebar_socialMedia">
+                                    <img src = "pic"  alt = "Link to Facebook page">
+                                </li>
+                                <li id = "pinterest" id = "pinterest_sidebar" class = "socialMedia_linkTo" class = "sidebar_socialMedia">
+                                    <img src = "pic"  alt = "Link to Pinterest page">
+                                </li>
+                            </ul>
+                        </div>  <!-- close of id = sidebar_bio_buttons -->            
+                    </div> <!-- close of id = myimage_bio_social & class = main_blocks_space_on_left div-->         
+
+                </div> <!-- close of id = cta_hero_bio div-->
+
+
+               
+                <div id = "services_blogposts" class = "space_on_left">
+                    <div id = "homePage_services_prices">
+                        <div id = "homePage_services" class = "services">
+                            <div id = "top_three_admin" class = "homePage_services_box">
+                                <h6>Admin</h6>
+                                <ul id = "homePage_services_adminList" class = "services_list">
+                                    <li class = "homePage_topServices">Service 1
+                                    </li>
+                                    <li class = "homePage_topServices">Service 2
+                                    </li>
+                                    <li class = "homePage_topServices">Service 3
+                                    </li>
+                                </ul>
+                                <button class = "homePage_findMore">Find Out More
+                                </button>
+                            </div>  <!-- close of id = top_three_admin & class = homePage_services_box -->
+                            
+                            <div id = "top_three_contentFac" class = "homePage_services_box">
+                                <h6>Content Facilitatition</h6>
+                                <ul id = "homePage_services_contentFacList" class = "services_list">
+                                    <li class = "homePage_topServices">Service 1
+                                    </li>
+                                    <li class = "homePage_topServices">Service 2
+                                    </li>
+                                    <li class = "homePage_topServices">Service 3
+                                    </li>
+                                </ul>
+                                <button class = "homePage_findMore">Find Out More
+                                </button>
+                            </div>  <!-- close of id = top_three_contentFac & class = homePage_services_box -->
+                            
+                            <div id = "top_three_socialMedia" class = "homePage_services_box">
+                                <h6>Social Media Assistance</h6>
+                                <ul id = "homePage_services_socialMedList" class = "services_list">
+                                    <li class = "homePage_topServices">Service 1
+                                    </li>
+                                    <li class = "homePage_topServices">Service 2
+                                    </li>
+                                    <li class = "homePage_topServices">Service 3
+                                    </li>
+                                </ul>
+                                <button class = "homePage_findMore">Find Out More
+                                </button>
+                            </div>  <!-- close of id = top_three_socialMedia & class = homePage_services_box -->
+                            
+                            <div id = "top_three_other" class = "homePage_services_box">
+                                <h6>Other</h6>
+                                <ul id = "homePage_services_otherList" class = "services_list">
+                                    <li class = "homePage_topServices">Service 1
+                                    </li>
+                                    <li class = "homePage_topServices">Service 2
+                                    </li>
+                                    <li class = "homePage_topServices">Service 3
+                                    </li>
+                                </ul>
+                                <button class = "homePage_findMore">Find Out More
+                                </button>
+                            </div>  <!-- close of id = top_three_other & class = homePage_services_box -->
+                        </div>  <!-- close of div for id = homePage_services & class = services -->
+                        
+                        <div id = "homePage_prices" class = "prices">
+                            <div class = "homePage_pricesList" id = "homePage_prices_tier1">
+                                <p><span class = "homePage_pricesName">Name of Tier 1</span>
+                                </p>
+                                <p class = "homePage_prices_box">$$$
+                                </p>
+                            </div>  <!-- close of id = homePage_prices_tier1 & class = homePage_pricesList -->
+                            <div class = "homePage_pricesList" id = "homePage_prices_tier2">
+                                <p><span class = "homePage_pricesName">Name of Tier 2</span>
+                                </p>
+                                <p class = "homePage_prices_box">$$$
+                                </p>
+                            </div>  <!-- close of id = homePage_prices_tier2 & class = homePage_pricesList -->
+                            <div class = "homePage_pricesList" id = "homePage_prices_tier3">
+                                <p><span class = "homePage_pricesName">Name of Tier 3</span>
+                                </p>
+                                <p class = "homePage_prices_box">$$$
+                                </p>
+                            </div>  <!-- close of id = homePage_prices_tier3 & class = homePage_pricesList -->
+                            <div class = "homePage_pricesList" id = "homePage_prices_tier4">
+                                <p><span class = "homePage_pricesName">Name of Tier 4</span>
+                                </p>
+                                <p class = "homePage_prices_box">$$$
+                                </p>
+                            </div>  <!-- close of id = homePage_prices_tier4 & class = homePage_pricesList -->
+                            <div class = "homePage_pricesList" id = "homePage_prices_tierCustom">
+                                <p><span class = "homePage_pricesName">Create Your Own</span>
+                                </p>
+                                <p class = "homePage_prices_box">$$$
+                                </p>
+                            </div>  <!-- close of id = homePage_prices_tierCustom & class = homePage_pricesList -->
+                            <div id = "homePage_button_bookNow">
+                                <button id = "bookNow">Book Now
+                                </button>
+                            </div>  <!-- close of id = homePage_button_bookNow -->
+                        
+                        </div>  <!-- close of div for id = homePageprices & class = services -->
+                    </div>  <!-- close of id = homePage_services_prices -->
+                    
+                    <div id = "homePage_sidebar_blogposts" class = "blogposts">
+                        <p><span>Most Popular Blog Posts</span>
+                        </p>
+                        <div id = "homePage_popular_blogsList">
+                            <ul id = "homePage_list_popularBlogs">
+                                <li id = "homePage_popular_Blog1" class = "homePage_popularBlogs">
+                                </li>
+                                <li id = "homePage_popular_Blog2" class = "homePage_popularBlogs">
+                                </li>
+                                <li id = "homePage_popular_Blog3" class = "homePage_popularBlogs">
+                                </li>
+                            </ul>
+                        </div>  <!-- close of id = homePage_popular_blogsList -->                      
+                    
+                    </div>  <!-- close of div for id = homePage_sidebar_blogposts & class = services -->
                 
-                <div id = "myImage_above_fold" class = "myImage">  <!-- is this div necessary?? -->
-                    <img src = "" alt = "Image of Sumy of Sumy Wrestle Code">
-                </div>  <!-- close of id = myImage_above_fold & class = myImage -->            
+                
+                </div> <!-- close of id = services_blogposts div-->
+                
+                <div id = "testimonials">
+                    <div id = "homePage_testimonials1" class = "homePage_testimonials">
+                        <img src = "pic" alt = "Testimonial about Sumy Wrestle Code designs by Client A">
+                        <p>How I love thee...
+                        </p>
+                    </div>  <!-- close of id = homePage_testimonials1 & class = homePage_ testimonials  -->
+                    
+                    <div id = "homePage_testimonials2" class = "homePage_testimonials">
+                        <img src = "pic" alt = "Testimonial about Sumy Wrestle Code designs by Client B">
+                        <p>How I love thee...
+                        </p>
+                    </div>  <!-- close of id = homePage_testimonials2 & class = homePage_ testimonials  -->
+                    
+                    <div id = "homePage_testimonials3" class = "homePage_testimonials">
+                        <img src = "pic" alt = "Testimonial about Sumy Wrestle Code designs by Client C">
+                        <p>How I love thee...
+                        </p>
+                    </div>  <!-- close of id = homePage_testimonials3 & class = homePage_ testimonials  -->
+                    
+                    <div id = "homePage_testimonials4" class = "homePage_testimonials">
+                        <img src = "pic" alt = "Testimonial about Sumy Wrestle Code designs by Client D">
+                        <p>How I love thee...
+                        </p>
+                    </div>  <!-- close of id = homePage_testimonials4 & class = homePage_ testimonials  -->
+                </div> <!-- close of id = testimonials div-->
+                
+                <footer id = "footer" class = "footer">  
+                    <div id= "div_footer" class = "footer">
+                        <div id = "footer_left" class = "footer">
+                            <div id = "footer_searchBox" class = "searchBox">
+                                <fieldset class = "searchField">What do you need to find?
+                                </fieldset>
+                            </div>  <!-- close of id = footer_searchBox & class = searchBox  -->
+                            <div id = "footer_recentBlogs" class = "homePage_blogposts">
+                                <ul class = "footer_recentBlogs_List">
+                                    <li id = "footer_recent_blog1">Recent Blog 1
+                                    </li>
+                                    <li id = "footer_recent_blog2">Recent Blog 2
+                                    </li>
+                                    <li id = "footer_recent_blog3">Recent Blog 3
+                                    </li>
+                                </ul>
+                            </div>  <!-- close of id = footer_recentBlogs & class = homePage_blogposts  -->
+                        </div>  <!-- close of id = footer_left & class = footer  -->
+                        
+                        <div id = "footer_middle" class = "footer">
+                            <p>Copyright by Sumy Wrestle Code <time>2019</time>
+                            </p>
+                        </div>  <!-- close of id = footer_middle & class = footer  -->
+                        
+                        <div id = "footer_right" class = "footer">
+                            <div id = "footer_nav" class = "nav">
+                                <ul id = "footer_navLinks">
+                                    <li id = "footer_homePage" class = "footer_links_nav"><a>Home</a>
+                                    </li>
+                                    <li id = "footer_aboutPage" class = "footer_links_nav"><a>About</a>
+                                    </li>
+                                    <li id = "footer_servicesPage" class = "footer_links_nav"><a>Services</a>
+                                    </li>
+                                    <li id = "footer_contactPage" class = "footer_links_nav"><a>Contact Me</a>
+                                    </li>
+                                </ul>
+                            </div>  <!-- close of div id = footer_nav & class = nav -->
+                            <div id = "footer_socialLinks" class = "socialLinks">
+                                <ul class = "footer_socialLinks_list">
+                                    <li id = "footer_fbLinks_list"><a>FB
+                                    <!-- need to add FaceBook favicon --></a>
+                                    </li>
+                                    <li id = "footer_pinLinks_list"><a>Pin
+                                    <!-- need to add Pinterest favicon --></a>
+                                    </li>
+                                </ul>
+                            </div>  <!-- close of id = footer_socialLinks & class = socialLinks  -->
+                        </div>  <!-- close of id = footer_right & class = footer  -->
+                    
+                    </div>  <!-- close of id = div_footer div -->
+                </footer>         
 
-                <p> Background, experience & skills and how they will solve client's problem
-                </p>
-                <div id = "work_with_me_buttons">
-                    <button id = "work_with_me_services" class = "button_to_servicePage">See my services
-                    </button>
-                    <button id = "work_with_me_portfolio" class = "button_to_servicePage">Go to my services
-                    </button>
-                    <button id = "work_with_me_bookCall" class = "button_to_contactPage">Book a Call with Me
-                    </button>
-                </div>  <!-- close of id = work_with_me_buttons & class = button_to_servicePage -->            
-            </div> <!-- close of id = offer_whyWork & class = main_blocks_space_on_left div-->
+            </div> 
             
-            <div id = "myimage_bio_social" class = "main_blocks_space_on_left">
-                <div id = "myImage_sidebar">
-                    <img src = "" alt = "Headshot of Sumy of Sumy Wrestle Code"
-                </div>  <!-- close of id = myImage_sidebar -->            
-                <div id = "sidebar_bio_buttons">
-                    <div id = "sidebar_bio">
-                    <p> <span>A Little About Me </span>
-                    </p>
-                    <p> Hello World! I'm Sumy, programmer at Sumy Wrestle Code .......
-                    </p>
-                    <ul id = "sidebar_smLinks">
-                        <li id = "facebook" id = "facebook_sidebar" class = "socialMedia_linkTo" "sidebar_socialMedia">
-                            <img src = "" type = "favicon" alt = "Link to Facebook page">
-                        </li>
-                        <li id = "pinterest" id = "pinterest_sidebar" class = "socialMedia_linkTo" "sidebar_socialMedia">
-                            <img src = "" type = "favicon" alt = "Link to Pinterest page">
-                        </li>
-                    </ul>
-                </div>  <!-- close of id = sidebar_bio_buttons -->            
-            </div> <!-- close of id = myimage_bio_social & class = main_blocks_space_on_left div-->         
-
-        </div> <!-- close of id = cta_hero_bio div-->
-
-
-       
-        <div id = "services_blogposts" class = "space_on_left">
-        </div> <!-- close of id = services_blogposts div-->
-        
-        <div id = "testimonials">
-        </div> <!-- close of id = testimonials div-->
-        
-        <footer id = "footer" class = "footer">  
-            <div id= "div_footer" class = "footer">
-            </div>  <!-- close of id = div_footer div -->
-        </footer>         
-
-    </div> <!-- close of id = container div-->
+            
+        <!-- What is the correct way to write this?? 
+            <script>
+                <link rel="stylesheet" type="text/javascript" media="screen" href="\mybusinesswebsite_htmlcssonly.js" /> 
+            <script src="\mybusinesswebsite_htmlcssonly.js"></script />
+            </script>
+        -->
+        </div> <!-- close of id = container div-->
     </body>
-
-    <!-- does script need to be in body tag-->
-    <script>
-    </script>
 
 
 </html>
