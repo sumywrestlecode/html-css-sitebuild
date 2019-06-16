@@ -96,7 +96,7 @@
                 </h5>
                 
                 <div id = "myImage_above_fold" class = "myImage">  <!-- is this div necessary?? -->
-                    <img src = "" alt = "Image of Vez and Vita Virtual founder Sumayyah S Abdullah">
+                    <img src = "" alt = "Image of Sumy of Sumy Wrestle Code">
                 </div>  <!-- close of id = myImage_above_fold & class = myImage -->            
 
                 <p> Background, experience & skills and how they will solve client's problem
@@ -113,13 +113,13 @@
             
             <div id = "myimage_bio_social" class = "main_blocks_space_on_left">
                 <div id = "myImage_sidebar">
-                    <img src = "" alt = "Headshot of Vez and Vita Virtual forunder Sumayyah S Abdullah"
+                    <img src = "" alt = "Headshot of Sumy of Sumy Wrestle Code"
                 </div>  <!-- close of id = myImage_sidebar -->            
                 <div id = "sidebar_bio_buttons">
                     <div id = "sidebar_bio">
                     <p> <span>A Little About Me </span>
                     </p>
-                    <p> Hi! I'm Sumayyah, founder of Vez and Vita Virtual.......
+                    <p> Hello World! I'm Sumy, programmer at Sumy Wrestle Code.......
                     </p>
                     <ul id = "sidebar_smLinks">
                         <li id = "facebook" id = "facebook_sidebar" class = "socialMedia_linkTo" "sidebar_socialMedia">
